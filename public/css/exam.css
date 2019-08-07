@@ -1,0 +1,505 @@
+span.fa-hourglass-1 {
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.tp-checkbox span.fa {
+    height: 12px;
+    margin: 0 auto;
+    display: block;
+    font-size: 15px;
+}
+
+.numberAnswerQuestion {
+    padding: 6px 12px !important;
+    margin: 6px;
+    text-align: center;
+}
+
+.boxPanel {
+    border: 1px solid #f4e3bd;
+    padding: 8px 8px 8px 0;
+    border-radius: 3px;
+    background: #fff8e8;
+    color: #b08e40;
+    margin-bottom: 5px;
+}
+
+.this_is_time_left_title_answer_sheet_panel {
+    padding: 14px 0;
+}
+
+.answerWrapper {
+    padding-top: 20px;
+    padding-bottom: 0;
+    position: relative;
+}
+
+.dragWrapper {
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto 30px;
+    left: 0;
+    right: 0;
+}
+
+.dragWrapper ul li:nth-of-type(1) {
+    margin-left: 0;
+}
+
+.dragWrapper ul li {
+    list-style: none;
+    border: 1px dashed #2c7b30;
+    float: left;
+    padding: 7px 7px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.gwt-HTML p {
+    margin: 0;
+}
+
+.bg-green {
+    background-color: #3c8dbc !important;
+}
+
+.radioButtonAnswer {
+    padding: 3px 9px;
+    border-radius: 100% !important;
+}
+
+.modal-header {
+    background: #1fb6ff;
+    background-size: 100%;
+}
+
+.modal-header h4 {
+    color: #fff;
+}
+
+.modal-body h5 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btnPlayGameEXercise.playingGame {
+    font-size: 15px;
+    position: relative;
+    bottom: unset;
+    right: unset;
+}
+
+@media (max-width: 768px) {
+    .leftMenuGame {
+        width: unset !important;
+    }
+}
+
+.exam-results-fixed {
+    position: fixed !important;
+    top: 0;
+    transition: all 0.2s;
+}
+
+.game-content {
+    padding: 10px;
+    word-break: break-word;
+    text-align: justify;
+    font-size: 1.1em;
+}
+
+.tp-checkbox {
+    width: 100%;
+    border-top: none;
+}
+
+.answer-key {
+    margin-left: 10px;
+    font-weight: bold;
+    color: #4f4f4f !important;
+}
+
+.answer-content {
+    padding: 5px;
+    cursor: default;
+    font-size: 1.1em;
+}
+
+.answer-content p {
+    margin-bottom: 0;
+}
+
+.game-main {
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #fff;
+}
+
+.home_block_gray {
+    margin: 15px 0;
+}
+
+.game-time-header {
+    padding: 10px 0;
+    text-align: center;
+    background: #428bca;
+}
+
+.game-time-label {
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.game-countdown {
+    padding: 0 calc(50% - 80px);
+}
+
+.clock-h, .clock-i, .clock-s {
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 4px !important;
+    background-color: #fff;
+    float: left;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.clock-2dot {
+    width: 20px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.clock-label {
+    width: 40px;
+    float: left;
+    color: #fff;
+    font-size: 10px;
+    margin-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.clock-text {
+    width: 20px;
+    float: left;
+    color: #2fadea;
+}
+
+.answer-text {
+    display: block;
+    padding: 15px;
+    position: relative;
+    font-weight: 700;
+    color: #333;
+    border: 2px solid #3a4447;
+    border-radius: 50% !important;
+    background: #cef3fc;
+}
+
+.answer-text span {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: -10px;
+    font-family: monospace;
+}
+
+.answer {
+    padding: 4px;
+    float: left;
+    cursor: pointer;
+}
+
+.answer-number {
+    font-size: 12px;
+    color: #cccccc;
+    text-align: center;
+}
+
+.game-answer-checkbox {
+    overflow-y: scroll;
+    max-height: 355px;
+    padding: 5px calc(50% - 118px);
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background: #fff;
+}
+
+.game-end {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.game-end button, .game-end a {
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 3px !important;
+}
+
+.game-preview {
+    padding: 10px 10px 10px 5px;
+}
+
+.game-preview span {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.count-preview {
+    color: #0a900f;
+}
+
+.game-answer-panel {
+    width: 100%;
+    height: calc(100% - 4px);
+}
+
+.game-content .col-md-6 {
+    margin: 5px 0;
+}
+
+.fa-check-circle-o {
+    color: rgb(0, 177, 132);
+}
+
+.fa-close {
+    color: #e82016;
+}
+
+.fa-check-circle-o:before {
+    content: "\f05d" !important;
+}
+
+.game-number span {
+    text-align: center;
+    padding: 2px 9px;
+    margin-right: 10px;
+    color: rgb(93, 89, 89);
+}
+
+.game-result {
+    font-size: 28px;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+.answer-text-correct {
+    color: #fff;
+    background: #28b371;
+}
+
+.answer-text-wrong {
+    color: #fff;
+    background: #ba1d2b;
+}
+
+.heading-line {
+    height: 2px;
+    background: #e8e8e8;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.heading-line:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 80px;
+    background: #f00;
+}
+
+.horizotalMenuItemFinal {
+    padding: 20px 0;
+}
+
+.horizotalMenuItemFinal h2 {
+    color: #5a6670;
+}
+
+.free-exam-label {
+    padding: 6px 12px;
+    border-radius: 5px;
+    color: #fff;
+    background: #ff9600;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.box-center .row {
+    margin: 10px 0;
+}
+
+.question-number {
+    width: 21px;
+    display: block;
+    position: relative;
+    color: #2C7B30;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.question-number span {
+    line-height: 35px;
+}
+
+.game-header {
+    padding: 15px;
+    margin: 0 0 15px;
+    background: #fff;
+}
+
+.game-header .col-md-3 {
+    text-align: center;
+}
+
+.game-result-title {
+    color: #2979b1;
+    font-weight: bold;
+}
+
+.game-end-preview {
+    padding: 5px calc(50% - 118px);
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    background: #fff;
+}
+
+.game-content-panel {
+    font-size: 17px !important;
+    font-family: "Times New Roman", serif;
+}
+
+.game-content p, .answer-content p, .game-explain p {
+    font-size: 17px !important;
+    font-family: "Times New Roman", serif;
+}
+
+.game-explain-content {
+    padding: 5px 10px;
+}
+
+.question-show {
+    margin-right: 10px;
+    cursor: pointer;
+    color: #2a6496;
+}
+
+.answer-default {
+    background: transparent;
+}
+
+.answer-chosen {
+    background: rgba(0, 177, 132, 0.2);
+}
+
+.answer-chosen span.fa-circle-o {
+    color: rgb(0, 177, 132);
+}
+
+.answer-chosen span.fa-circle-o:before {
+    content: "\f05d" !important;
+}
+
+.div-answered{
+    background-color: rgb(47, 112, 220);
+    color: rgb(255, 255, 255);
+}
+
+[class*=box-] {
+    height: 6px;
+    background: #f6f7f9;
+    margin-bottom: 13px;
+    margin-right: 5px;
+}
+
+.box-loading {
+    background: #fff;
+    height: calc(100vh - 100px);
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 0 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.box-thumbnail {
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.box-line-sm {
+    width: 120px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.box-line-xs {
+    width: 80px;
+    margin-left: 50px;
+}
+
+.box-line-df {
+    margin-top: 30px;
+    width: 380px;
+}
+
+.box-line-lg {
+    width: 200px;
+}
+
+.box-line-lgx {
+    width: 450px;
+}
+
+[class*=box-line],
+.box-thumbnail {
+    animation: timeline;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+    background-size: 800px auto;
+    background-position: 100px 0;
+}
+
+@keyframes timeline {
+    0% {
+        background-position: -350px 0;
+    }
+    100% {
+        background-position: 400px 0;
+    }
+}
